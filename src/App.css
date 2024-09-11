@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-color: blue;
+}
+
+.container {
+  position: relative;
+  bottom: 40px;
+  display: inline-block;
+  border-radius: 20px;
+  background-color: white;
+  width: 360px;
+  height: 580px;
+  padding: 10px;
+  margin: 20px;
+  margin-top: 80px;
+  margin-left: 30px;
+  transition: background-color 0.3s ease;
+
+}
+
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  line-height: 2.4;
+  margin-top: 0px;
+
+}
+
+hr {
+  color: rgb(10, 9, 9);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.header {
+  font-weight: bold;
+  color: grey;
+  text-align: center;
+  margin: 0px;
+}
+
+.sub_header {
+  text-align: center;
+  font-size: larger;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.container:hover {
+  box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem #464344;
+
+}
+
+.btn {
+  height: 50px;
+  width: 350px;
+  border-radius: 50px;
+  text-align: center;
+  background-color: rgb(76, 76, 240);
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  margin-top: 10px;
+}
+
+footer {
+  margin: 0px;
+}
+
+button:hover {
+
+  background-color: blue;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
